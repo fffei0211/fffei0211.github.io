@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "zh-CN"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "李怡霏 / Personal Website"
+title                    : "李怡霏｜个人主页"
 title_separator          : "-"
 name                     : &name "李怡霏Joy"
 description              : &description "浙江大学能源动力专业硕士研究生"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -27,8 +27,8 @@ author:
   name             : "李怡霏 Joy"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Hangzhou, China"
-  employer         : "Zhejiang University"
+  location         : "浙江|杭州"
+  employer         : "浙江大学"
   uri              : # URL
   email            : "22660769@zju.edu.cn" 
 
