@@ -24,13 +24,13 @@ repository               : "fffei0211/fffei0211.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "李怡霏 Joy"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Hangzhou, China"
+  employer         : "Zhejiang University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "22660769@zju.edu.cn" 
 
   # Academic websites
   academia         : # URL
