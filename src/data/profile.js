@@ -38,10 +38,10 @@ export const profile = {
 
   navigation: [
     { id: "about", label: "关于我", href: "#about" },
-    { id: "experience", label: "教育背景", href: "#experience" },
+    { id: "education", label: "教育背景", href: "#experience" },
     { id: "projects", label: "项目经历", href: "#projects" },
-    { id: "skills", label: "成果展示", href: "#skills" },
-    { id: "education", label: "技能与爱好", href: "#education" },
+    { id: "experience", label: "成果展示", href: "#skills" },
+    { id: "skills", label: "技能与爱好", href: "#education" },
     { id: "contact", label: "联系我", href: "#contact" },
   ],
 
