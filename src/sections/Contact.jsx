@@ -27,7 +27,7 @@ export default function Contact({ identity, contact, copy }) {
 
     try {
       await navigator.clipboard.writeText(contact.contactValue)
-      setMessage('联系方式已复制。')
+      setMessage('联系方式已复制~')
     } catch {
       setMessage(`复制失败，请手动复制：${contact.contactValue}`)
     }
