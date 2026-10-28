@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Reveal from '../components/Reveal.jsx'
 
 function isPlaceholder(value) {
@@ -7,6 +7,15 @@ function isPlaceholder(value) {
 
 export default function Contact({ identity, contact, copy }) {
   const [message, setMessage] = useState('')
+  useEffect(() => {
+  if (!message) return
+
+  const timer = window.setTimeout(() => {
+    setMessage('')
+  }, 2000)
+
+  return () => window.clearTimeout(timer)
+}, [message])
   const emailReady = !isPlaceholder(contact.email)
   const contactReady = !isPlaceholder(contact.contactValue)
 
