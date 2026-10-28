@@ -22,13 +22,13 @@ export const profile = {
   },
 
   identity: {
-    name: "[姓名]",
-    englishName: "[ENGLISH NAME]",
+    name: "李怡霏",
+    englishName: "Joy",
     initials: "ME",
     role: "[职业定位]",
     statement:
       "个人介绍待补充：请用 2–3 句话说明你关注的问题、擅长的方向，以及希望通过作品集传达什么。",
-    location: "[城市]",
+    location: "浙江杭州",
     status: "[当前状态]",
     tags: ["[能力标签 01]", "[能力标签 02]", "[能力标签 03]"],
     portrait: portraitPlaceholder,
