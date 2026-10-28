@@ -283,9 +283,9 @@ export const profile = {
   ],
 
   contact: {
-    email: "邮箱地址待补充",
-    emailLabel: "邮箱待补充",
-    contactValue: "其他联系方式待补充",
+    email: "22660769@zju.edu.cn",
+    emailLabel: "写邮件给我",
+    contactValue: "1517",
     resumeUrl: null,
     note: "并说明所在地、远程协作偏好与可联系时间。",
     socials: [
