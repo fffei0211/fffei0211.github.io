@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 880" role="img" aria-labelledby="title desc">
+  <title id="title">人物照片占位图</title>
+  <desc id="desc">柔和渐变与抽象卡片组成的占位图，不含人物肖像，请替换为本人授权照片。</desc>
+  <defs>
+    <linearGradient id="portrait-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8cddd"/>
+      <stop offset="0.48" stop-color="#fff1cc"/>
+      <stop offset="1" stop-color="#c9eef0"/>
+    </linearGradient>
+    <linearGradient id="portrait-card" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.86"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.38"/>
+    </linearGradient>
+    <filter id="portrait-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#51635e" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="720" height="880" rx="44" fill="url(#portrait-bg)"/>
+  <circle cx="378" cy="408" r="250" fill="#cec7f5" fill-opacity="0.34" stroke="#ffffff" stroke-opacity="0.58" stroke-width="2"/>
+  <circle cx="142" cy="176" r="38" fill="none" stroke="#ffffff" stroke-opacity="0.68" stroke-width="2"/>
+  <circle cx="592" cy="218" r="18" fill="#ffffff" fill-opacity="0.36"/>
+  <circle cx="624" cy="644" r="64" fill="none" stroke="#74d9bf" stroke-opacity="0.42" stroke-width="3"/>
+  <g filter="url(#portrait-shadow)">
+    <rect x="126" y="168" width="468" height="552" rx="34" fill="url(#portrait-card)" stroke="#70dcc0" stroke-width="4" stroke-dasharray="12 10"/>
+    <rect x="184" y="258" width="352" height="278" rx="28" fill="#ffffff" fill-opacity="0.34"/>
+    <path d="M228 474c82-78 174-138 266-178" fill="none" stroke="#775fd7" stroke-opacity="0.34" stroke-width="12" stroke-linecap="round"/>
+    <path d="M232 418c84 34 164 38 246 6" fill="none" stroke="#74d9bf" stroke-opacity="0.62" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g font-family="Arial, 'Microsoft YaHei', sans-serif" text-anchor="middle" fill="#232522">
+    <text x="360" y="604" font-size="18" letter-spacing="5">PORTRAIT PLACEHOLDER</text>
+    <text x="360" y="642" font-size="22" font-weight="700">本人照片待补充</text>
+    <text x="360" y="676" font-size="15" fill="#666b66">请替换为已获授权的透明背景照片</text>
+  </g>
+</svg>

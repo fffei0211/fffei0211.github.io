@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">教育经历一图片占位图</title>
+  <desc id="desc">抽象建筑模块与柔和渐变组成的教育经历占位图，不代表真实学校。</desc>
+  <defs>
+    <linearGradient id="e1-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d2ece8"/><stop offset="0.5" stop-color="#fff0cc"/><stop offset="1" stop-color="#f1cbdc"/></linearGradient>
+  </defs>
+  <rect width="1200" height="720" rx="36" fill="url(#e1-bg)"/>
+  <circle cx="176" cy="152" r="72" fill="#fff" fill-opacity="0.36"/>
+  <g fill="#fff" fill-opacity="0.62" stroke="#516f68" stroke-opacity="0.16" stroke-width="3">
+    <rect x="224" y="218" width="752" height="314" rx="26"/>
+    <path d="M184 238L600 84l416 154z"/>
+  </g>
+  <g fill="#6dcdb4" fill-opacity="0.36">
+    <rect x="302" y="288" width="112" height="244" rx="14"/><rect x="462" y="288" width="112" height="244" rx="14"/><rect x="626" y="288" width="112" height="244" rx="14"/><rect x="786" y="288" width="112" height="244" rx="14"/>
+  </g>
+  <g font-family="Arial, 'Microsoft YaHei', sans-serif" text-anchor="middle" fill="#202220">
+    <text x="600" y="604" font-size="20" letter-spacing="5">EDUCATION 01</text>
+    <text x="600" y="648" font-size="28" font-weight="700">学校图片待补充</text>
+  </g>
+</svg>

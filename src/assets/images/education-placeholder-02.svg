@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">教育经历二图片占位图</title>
+  <desc id="desc">抽象拱门与书页图形组成的教育经历占位图，不代表真实学校。</desc>
+  <defs>
+    <linearGradient id="e2-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f6cddd"/><stop offset="0.48" stop-color="#f8efd0"/><stop offset="1" stop-color="#ccebf0"/></linearGradient>
+    <filter id="e2-shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dy="18" stdDeviation="22" flood-color="#4f5957" flood-opacity="0.12"/></filter>
+  </defs>
+  <rect width="1200" height="720" rx="36" fill="url(#e2-bg)"/>
+  <g filter="url(#e2-shadow)">
+    <rect x="184" y="110" width="832" height="464" rx="34" fill="#fff" fill-opacity="0.62"/>
+    <path d="M286 574V324c0-130 105-234 234-234s234 104 234 234v250z" fill="#8066d8" fill-opacity="0.2"/>
+    <path d="M446 574V366c0-70 57-128 128-128s128 58 128 128v208z" fill="#75d5bc" fill-opacity="0.44"/>
+    <path d="M794 236c60-36 118-36 174 0v202c-56-36-114-36-174 0zm0 0c-60-36-118-36-174 0" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g font-family="Arial, 'Microsoft YaHei', sans-serif" text-anchor="middle" fill="#202220">
+    <text x="600" y="630" font-size="20" letter-spacing="5">EDUCATION 02</text>
+    <text x="600" y="670" font-size="27" font-weight="700">学校与学习信息待补充</text>
+  </g>
+</svg>

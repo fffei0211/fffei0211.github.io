@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">项目一封面占位图</title>
+  <desc id="desc">粉色、奶油色与薄荷色的抽象模块构图，项目内容待补充。</desc>
+  <defs>
+    <linearGradient id="p1-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7c9dc"/><stop offset="0.52" stop-color="#fff0cf"/><stop offset="1" stop-color="#cbeef0"/></linearGradient>
+    <filter id="p1-shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dy="18" stdDeviation="22" flood-color="#494844" flood-opacity="0.13"/></filter>
+  </defs>
+  <rect width="1200" height="720" rx="36" fill="url(#p1-bg)"/>
+  <circle cx="1020" cy="128" r="92" fill="none" stroke="#fff" stroke-opacity="0.6" stroke-width="3"/>
+  <g filter="url(#p1-shadow)">
+    <rect x="120" y="108" width="624" height="456" rx="34" fill="#fff" fill-opacity="0.72"/>
+    <rect x="172" y="164" width="286" height="176" rx="24" fill="#7863d8" fill-opacity="0.56"/>
+    <rect x="482" y="164" width="210" height="78" rx="18" fill="#75d9bf" fill-opacity="0.72"/>
+    <rect x="482" y="262" width="210" height="78" rx="18" fill="#f2ad5e" fill-opacity="0.64"/>
+    <rect x="172" y="382" width="520" height="18" rx="9" fill="#282a28" fill-opacity="0.22"/>
+    <rect x="172" y="424" width="396" height="14" rx="7" fill="#282a28" fill-opacity="0.13"/>
+  </g>
+  <g font-family="Arial, 'Microsoft YaHei', sans-serif" fill="#202220">
+    <text x="808" y="294" font-size="20" letter-spacing="5">PROJECT 01</text>
+    <text x="808" y="350" font-size="38" font-weight="700">项目封面待补充</text>
+    <text x="808" y="396" font-size="18" fill="#666b66">请替换为真实项目视觉</text>
+  </g>
+</svg>

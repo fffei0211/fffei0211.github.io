@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">项目二封面占位图</title>
+  <desc id="desc">淡青色轨道与半透明卡片组成的抽象封面，项目内容待补充。</desc>
+  <defs>
+    <linearGradient id="p2-bg" x1="0" y1="0" x2="1" y2="0.9"><stop stop-color="#d8eff0"/><stop offset="0.52" stop-color="#eef3da"/><stop offset="1" stop-color="#f5cedd"/></linearGradient>
+    <filter id="p2-shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dy="20" stdDeviation="24" flood-color="#3b5f59" flood-opacity="0.12"/></filter>
+  </defs>
+  <rect width="1200" height="720" rx="36" fill="url(#p2-bg)"/>
+  <g transform="translate(370 360)" fill="none" stroke="#67cdb5" stroke-opacity="0.42">
+    <circle r="214" stroke-width="2"/><circle r="162" stroke-width="3"/><circle r="108" stroke-width="2"/><circle r="50" stroke-width="4"/>
+    <circle cx="144" cy="-68" r="18" fill="#765dd5" stroke="none"/><circle cx="-90" cy="130" r="13" fill="#eda75d" stroke="none"/>
+  </g>
+  <g filter="url(#p2-shadow)">
+    <rect x="650" y="132" width="390" height="456" rx="34" fill="#fff" fill-opacity="0.7"/>
+    <rect x="708" y="196" width="136" height="30" rx="15" fill="#72d8be" fill-opacity="0.66"/>
+    <rect x="708" y="272" width="270" height="24" rx="12" fill="#202220" fill-opacity="0.78"/>
+    <rect x="708" y="324" width="252" height="14" rx="7" fill="#202220" fill-opacity="0.18"/>
+    <rect x="708" y="360" width="206" height="14" rx="7" fill="#202220" fill-opacity="0.12"/>
+    <rect x="708" y="458" width="112" height="44" rx="22" fill="#202220"/>
+  </g>
+  <g font-family="Arial, 'Microsoft YaHei', sans-serif" fill="#202220">
+    <text x="132" y="134" font-size="20" letter-spacing="5">PROJECT 02</text>
+    <text x="132" y="184" font-size="32" font-weight="700">项目封面待补充</text>
+  </g>
+</svg>

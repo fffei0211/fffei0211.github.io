@@ -1,0 +1,48 @@
+:root {
+  color-scheme: light;
+  font-family: Inter, "MiSans", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", system-ui, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+
+  --bg-pink: #f8cbd8;
+  --bg-cream: #fff0c8;
+  --bg-mint: #ddf2d7;
+  --bg-cyan: #cdeef0;
+
+  --ink: #171817;
+  --ink-soft: #3f433f;
+  --muted: #666b66;
+  --surface: rgb(255 255 255 / 64%);
+  --surface-strong: rgb(255 255 255 / 84%);
+  --surface-soft: rgb(255 255 255 / 42%);
+  --line: rgb(23 24 23 / 11%);
+  --line-light: rgb(255 255 255 / 64%);
+  --dark: #173129;
+  --dark-soft: #24443a;
+
+  --purple: #805bd8;
+  --purple-soft: #cbbcf0;
+  --mint: #73dcc1;
+  --mint-soft: #c8f2e6;
+  --amber: #e4a348;
+  --amber-soft: #f7ddb6;
+  --rose: #e98ba7;
+
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 30px;
+  --radius-xl: 42px;
+  --radius-pill: 999px;
+
+  --shadow-card: 0 28px 80px rgb(52 44 38 / 9%);
+  --shadow-float: 0 14px 38px rgb(52 44 38 / 13%);
+  --shadow-dark: 0 34px 80px rgb(20 47 38 / 18%);
+
+  --container: 1200px;
+  --content: 720px;
+  --header-offset: 98px;
+  --section-space: clamp(6.5rem, 11vw, 10rem);
+  --gutter: clamp(1.1rem, 4vw, 2rem);
+  --ease-out: cubic-bezier(.22, 1, .36, 1);
+  --ease-soft: cubic-bezier(.4, 0, .2, 1);
+}
