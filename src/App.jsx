@@ -33,10 +33,10 @@ export default function App() {
 
       <main id="main-content" tabIndex="-1">
         <Hero identity={profile.identity} hero={profile.hero} resumeUrl={profile.contact.resumeUrl} />
-        <Experience items={profile.experiences} copy={profile.sectionCopy.experience} />
-        <Projects items={profile.projects} copy={profile.sectionCopy.projects} />
-        <Skills items={profile.skills} copy={profile.sectionCopy.skills} />
         <Education items={profile.education} copy={profile.sectionCopy.education} />
+        <Projects items={profile.projects} copy={profile.sectionCopy.projects} />
+        <Experience items={profile.experiences} copy={profile.sectionCopy.experience} />
+        <Skills items={profile.skills} copy={profile.sectionCopy.skills} />
         <Contact identity={profile.identity} contact={profile.contact} copy={profile.sectionCopy.contact} />
       </main>
     </div>
