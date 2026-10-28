@@ -12,7 +12,7 @@ export default function Contact({ identity, contact, copy }) {
 
   const timer = window.setTimeout(() => {
     setMessage('')
-  }, 2000)
+  }, 1000)
 
   return () => window.clearTimeout(timer)
 }, [message])
