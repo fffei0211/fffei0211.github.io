@@ -260,10 +260,10 @@ export const profile = {
   education: [
     {
       id: "education-01",
-      period: "起止时间待补充",
-      school: "学校名称 01（待补充）",
-      program: "专业或研究方向 01 待补充",
-      degree: "学历与专业待补充",
+      period: "2026.09-至今",
+      school: "浙江大学",
+      program: "动力工程",
+      degree: "硕士",
       summary: "教育经历 01 的课程、研究或校园经历待补充。",
       image: educationPlaceholder01,
       imageAlt: "教育经历 01 图片占位图",
@@ -271,10 +271,10 @@ export const profile = {
     },
     {
       id: "education-02",
-      period: "起止时间待补充",
+      period: "2022.09-2026.06",
       school: "学校名称 02（待补充）",
-      program: "专业或研究方向 02 待补充",
-      degree: "学历与专业待补充",
+      program: "电气工程及其自动化",
+      degree: "本科",
       summary: "教育经历 02 的课程、研究或校园经历待补充。",
       image: educationPlaceholder02,
       imageAlt: "教育经历 02 图片占位图",
