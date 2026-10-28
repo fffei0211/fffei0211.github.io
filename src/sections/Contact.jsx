@@ -43,7 +43,9 @@ export default function Contact({ identity, contact, copy }) {
 
           <div className="button-row contact-panel__actions">
             {emailReady ? (
-              <a className="button button--mint" href={`mailto:${contact.email}`}>发送邮件</a>
+              <a className="button button--mint" href={`mailto:${contact.email}`}>
+                {contact.emailLabel}
+              </a>
             ) : (
               <button className="button button--mint" type="button" onClick={() => setMessage('请先在数据文件中补充邮箱。')}>{contact.emailLabel}</button>
             )}
